@@ -1,0 +1,194 @@
+/* CSS*/
+html, body {height:100%; margin:0; padding:0;}
+body {margin:0; padding:0;}
+p, h1, h2, h3, h4, h5, div, form, ul {margin:0; padding:0;} 
+input {font-size: 100%; padding:0;}
+
+/* Generiche */
+body {width:100%; margin:0; color:#666666; font-family: Arial, Helvetica, sans-serif; font-size:12px; font-weight: 100; background-color:#dcdedd; background-image: url(img/bg-body.jpg); background-repeat:repeat-x; background-position:top left;}
+
+.clear {clear:both; margin:0; padding:0;}
+a {color:#666666; text-decoration:underline; font-weight:normal;}
+a:hover {color:#666666; text-decoration:underline; font-weight:normal;}
+img {border:0;}
+
+/* Principali */
+div#contenitore {width: 100%; margin: 0; padding: 0; position: relative;}
+div#principale {width:1010px; margin:10px auto 0 auto; padding:0;}
+
+
+/* --------------------HOME PAGE--------------------- */
+
+/* Alto */
+div#alto {width:100%; margin:0 auto 0 auto; padding:0;}
+div#logo {width:350px; float:left; margin:0; padding:0;}
+
+div#menu {width:64%; float:left; margin:0; padding:0;}
+
+div#menu-uno {width:55%; float:right; margin:10px 0 0 0; padding:0; font-size:110%; }
+div#menu-uno ul{margin:0; padding:0;}
+div#menu-uno li{float:left; list-style-type:none; margin:0 2px 0 2px; color:#a6a9a7; padding:0 2px 0 0; color:#f29100;}
+div#menu-uno li a{text-decoration:none; color:#a6a9a7;}
+div#menu-uno li a:hover{text-decoration:none; color:#a6a9a7;} 
+
+div#menu-tit {width:568px; margin:0 auto 0 auto; padding:5px; line-height:36px; background-image:url(img/sf-menu-sfum1.jpg); background-repeat:repeat-x; background-position:top left; font-size:130%;}
+div#menu-tit ul{margin:0; padding:0;}
+div#menu-tit li{float:left; list-style-type:none; margin:0 3px 0 3px; color:#f29100; padding:0 3px 0 3px; }
+div#menu-tit li a{text-decoration:none; color:#a6a9a7;}
+div#menu-tit li a:hover{text-decoration:none; color:#a6a9a7;} 
+
+div#ombra-menu-tit{ width:600px; float:right; margin:0; padding:10px 0 10px 0; background-image: url(img/ombra-menu-b1.png); background-repeat:no-repeat;line-height:67px;}
+
+div#centro{ width:100%; margin:20px 0 0 0; padding:0;}
+/* Slidi Immagini Alto*/
+div#gallery { float:left; width:960px; margin:0 auto 0 auto; padding:0; min-height:290px; border:4px solid #ffffff; background-image:url(img/sf-gallery.jpg); background-repeat:repeat-y; background-position:top center;
+}
+div#gallery  .slideshow {width: 960px; height:290px; position: relative; overflow: hidden; background:#ffffff url(img/ajaxLoader.gif) no-repeat center center; margin:0 auto 0 auto;}
+#slide-testata div.slide-testata-inner {height:290px; display:none;}
+#slide-testata div.slide-testata-inner a {border:none;}
+#slide-testata div.slide-testata-inner a:hover {border:none;}
+
+div#titolo {position:absolute; top:0; width:400px; margin:0; padding:0 0 0 40px; top:380px; z-index:100;}
+
+div.ombra-sx{ float:left;}
+div.ombra-dx{ float:left;}
+
+
+/* 3 Box sotto */
+
+div#box {width:100%; margin:20px auto 20px 0; padding:0;}
+
+div#box ul{margin:0; padding:0 0 0 20px;}
+div#box li{float:left; list-style-type:none; margin:0 22px 0 0 ;}
+div#box li h3{ color:#b8bab8; font-family:"Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; font-size:220%; text-align:left; padding:0 0 0 20px; font-weight: lighter;}
+div#box li h3 a{ color:#b8bab8; font-weight:normal; text-decoration:none;}
+div#box li h3 a:hover{ color:#b8bab8; font-weight:normal; text-decoration:none;}
+
+
+div#box li div.inbox { width:308px; height:312px;  background:url(img/ombra-box1.png) no-repeat right bottom ;}
+
+/* primo Box sotto */
+div#box li div.inbox .bianco-uno{width:300px; height:300px; background-color:#FFFFFF; color:#808481;}
+div#box li div.inbox .bianco-uno ul{ width:90%; margin:20px auto 10px auto; padding:10px 0 0 0 ;}
+div#box li div.inbox .bianco-uno ul li{ margin:0; padding:20px 0 0 30px; color:#808481; list-style-type:none;}
+div#box li div.inbox .bianco-uno img{ border:0;}
+
+div#box li div.inbox .bianco-uno ul .tx{color:#f29100; text-align:center;}
+div#box li div.inbox .bianco-uno ul .tx a{color:#f29100; text-align:center; text-decoration:none;}
+div#box li div.inbox .bianco-uno ul .tx a:hover{color:#f29100; text-align:center; text-decoration:underline;}
+
+/* secondo Box sotto */
+div#box li div.inbox .bianco-due{width:300px; height:300px; background-color:#FFFFFF; color:#808481;}
+div#box li div.inbox .bianco-due h6{color:#434743; font-size:115%; font-weight:normal; margin:0; padding:0;}
+div#box li div.inbox .bianco-due h5{color:#f29100; font-size:120%; font-weight:bold; margin:8px 0 8px 0; padding:0;}
+div#box li div.inbox .bianco-due ul{ width:90%; margin:20px auto 10px auto; padding:10px 0 0 0 ;}
+div#box li div.inbox .bianco-due ul li{ margin:8px 0 8px 0; padding:0; color:#808481; list-style-type:none;}
+div#box li div.inbox .bianco-due ul li a{ color:#808481; text-decoration:none}
+div#box li div.inbox .bianco-due ul li a:hover{ color:#808481; text-decoration:underline}
+div#box li div.inbox .bianco-due img{ border:0;}
+
+/* terzo Box sotto */
+div#box li div.inbox .bianco-tre{width:300px; height:300px; background-color:#FFFFFF; color:#808481;}
+div#box li div.inbox .bianco-tre h6{color:#434743; font-size:115%; font-weight:normal; margin:0; padding:0;}
+div#box li div.inbox .bianco-tre h5{color:#f29100; font-size:120%; font-weight:normal; margin:8px 0 8px 0; padding:0;}
+div#box li div.inbox .bianco-tre ul{ width:90%; margin:20px auto 10px auto; padding:10px 0 0 0 ;}
+div#box li div.inbox .bianco-tre ul li{ margin:8px 0 8px 0; padding:0; color:#808481; list-style-type:none;}
+div#box li div.inbox .bianco-tre ul li a{ color:#808481; text-decoration:none}
+div#box li div.inbox .bianco-tre ul li a:hover{ color:#808481; text-decoration:underline}
+div#box li div.inbox .bianco-tre img{ border:0;}
+
+
+div#box li div.inbox .bianco-uno ul .img{ margin:20px auto 0 0; padding:0;}
+div#box li div.inbox .bianco-uno ul .img li{ margin:0; padding:20px 0 0 30px; color:#808481; list-style-type:none;}
+div#box li div.inbox .bianco-uno img{ border:0;}
+
+
+div#coda {width:100%; margin:0 auto 10px auto; padding:0; text-align:center; color:#808481;}
+div#coda a{ color:#f29100; text-decoration:none;}
+div#coda a:hover{ color:#f29100; text-decoration:none;}
+
+/* -------------------- DETTAGLIO -------------------- */
+
+div#titolo-dett {position:absolute; top:0; width:130px; margin:0; padding:0 0 0 100px; top:200px; z-index:100;}
+
+div#centro-dett{ width:100%; margin:20px 0 0 0; padding:0;}
+div#centro-sx-dx{ float:left; width:970px; margin:0 auto 0 auto; padding:0; border:4px solid #ffffff; background-color:#ffffff;}
+
+div#centro-sx{ float:left; width:53%; margin:30px auto 20px 60px; padding:0; text-align:justify; line-height:21px;}
+div#centro-sx h3{color:#f29100; font-family:"Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; font-size:220%; text-align:left; padding:20px 0 10px 0; font-weight: lighter;}
+div#centro-sx h4{ color:#b8bab8; font-family:"Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; font-size:220%; text-align:left; padding:20px 0 10px 0; font-weight:lighter;}
+
+div#centro-sx-partner{ float:left; width:55%; margin:30px auto 20px 50px; padding:0; text-align:justify;}
+
+div#centro-sx-partner h3{color:#f29100; font-family:"Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; font-size:220%; text-align:left; padding:20px 0 10px 0; font-weight:lighter;}
+div#centro-sx-partner h5{color:#f29100; font-family:"Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; font-size:110%; text-align:left; padding:0; font-weight:lighter;}
+
+div#centro-sx-partner img{ border:0;}
+div#centro-sx-partner ul{ margin:0; padding:0;}
+div#centro-sx-partner ul li{ float:left; list-style-type:none; padding:20px 40px 20px 0;}
+
+
+div#centro-sx-percorso{position:absolute; top:0; width:20%; margin:30px auto 20px 400px; padding:0; text-align:justify; top:300px; z-index:100; line-height:21px;}
+div#centro-sx-percorso h3{color:#f29100; font-family:"Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; font-size:220%; text-align:left; padding:20px 0 10px 0; font-weight: lighter;}
+
+
+
+div#centro-dx{ float:right; width:320px; margin:0; padding:0;}
+
+div.ombra-sx-dett{ float:left; padding:30px 0 0 0;}
+div.ombra-dx-dett{ float:left; padding:30px 0 0 0;}
+
+div#centro-sx-dx-percorso{ float:left; width:970px; margin:0 auto 0 auto; padding:0; border:4px solid #ffffff; background-color:#ffffff;}
+
+div#centro-sx-dx-percorso img{margin:0; padding:0 0 0 50px; border:0;}
+
+
+div#contatti {float:left; width:960px; margin:0 auto 0 auto; padding:0; height:290px; border:4px solid #ffffff; background-image:url(img/img-contatti.jpg); background-repeat:no-repeat; background-position:top left;}
+div.testo{ width:26%; margin:90px auto 0 auto; color:#FFFFFF; font-size:120%; font-weight:normal;}
+div.testo a{ color:#ffd62f; font-weight:normal;}
+div.testo a:hover{color:#ffd62f; font-weight:normal;}
+
+div.testo h5{color:#FFFFFF; font-size:150%; font-weight:normal;}
+
+div.testo img{ float:left; padding:0 15px 0 0;}
+
+
+/* Nyro */
+div#nyroModalFull {color: #777;}
+div#nyroModalLoading {border: 4px solid #777; width: 150px; height: 150px; text-indent: -9999em; background: #fff url(img/ajaxLoader.gif) no-repeat center;}
+div#nyroModalLoading.error {border: 4px solid #f66; line-height: 20px; padding: 20px; width: 300px; height: 100px; text-indent: 0; background: #fff;}
+div#nyroModalWrapper {background: #fff; border: 4px solid #777;}
+a#closeBut {position: absolute; display: block; top: -20px; right: -20px; width: 20px; height: 20px; text-indent: -9999em; background: url(img/close.gif) no-repeat;	outline: 0;}
+h1#nyroModalTitle {margin: 0; padding: 0; position: absolute; top: -25px; left: 5px; color: #fff; font-size: 14px;}
+div.wrapper div#nyroModalContent {padding: 5px;}
+div.wrapperImg div#nyroModalContent {position: relative; overflow: hidden; text-align: center;}
+div.wrapperImg div#nyroModalContent h2 {font-size: 100%; color: #4AC010;}
+div.wrapperImg img {vertical-align: baseline;}
+div.wrapperImg div#nyroModalContent div {display: none;}
+div.wrapperImg div#nyroModalContent div:hover {display: none;}
+a.nyroModalPrev, a.nyroModalNext {z-index: 105; outline: none; position: absolute; top: 0; height: 100%; width: 40%; cursor: pointer; text-indent: -9999em; background-image: url(data:image/gif;base64,AAAA); /* Trick IE6 */}
+div.wrapperSwf a.nyroModalPrev, div.wrapperSwf a.nyroModalNext, div.wrapper a.nyroModalPrev, div.wrapper a.nyroModalNext {height: 60%; width: 20%;}
+a.nyroModalPrev {left: 0;}
+a.nyroModalPrev:hover {background: url(img/prev.gif) left 20% no-repeat;}
+a.nyroModalNext {right: 0;}
+a.nyroModalNext:hover {background: url(img/next.gif) right 20% no-repeat;}
+
+
+
+/* ========== LASCIARE ULTIME ========= */
+
+[if IE 7]>
+#nav { filter: alpha(opacity = 0);}
+.slideshow #nav a { background: #000;}
+.slideshow a.title { zoom: 1; }
+a.title span.sfondo {filter: alpha(opacity = 60); zoom: 1; }
+a.title span.text {zoom: 1; bottom: -10px !important; padding: 7px 0; zoom: 1; }
+a.title:hover span.sfondo { filter: alpha(opacity = 60); zoom: 1; text-decoration: none;}
+<![endif]
+
+[if IE 8]>
+a.title span.sfondo { -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; }
+a.title:hover span.sfondo { -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)"; }
+<![endif]
+
+

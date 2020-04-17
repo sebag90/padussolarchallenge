@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="it">
+<head>
+<title>Padus Solar Challenge, competizione internazionale delle migliori barche solari attrezzate per gare di endurance</title>
+<meta name="description" content="Padus Solar Challenge, la competizione internazionale delle migliori barche solari attrezzate per gare di endurance da Cremona a Venezia andata e ritorno" />
+<meta name="keywords" content="Padus Solar Challenge,gara,competizione,elettrosolare,catamarano solare,catamarano elettrico,barca solare,navigazione elettrica,pannelli solari,inseguitore solare,energie rinnovabili,trazione elettrica,energia pulita,energia alternativa,MPPT,Cremona,Venezia,solar challenge" />
+<meta name="author" content="Redazione di Popolis.it - www.popolis.it" />
+<meta name="robots" content="ALL" />
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+<meta name="google-site-verification" content="XplVyS7RTZhFHiRjY05QHFVnP1HGB97feNQ2UwV0iNA" />
+
+
+
+<script type="text/javascript" src="include/js/jquery.js"></script>
+<script type="text/javascript" src="include/js/jquery.fixBoxModel.min.js"></script>
+<script type="text/javascript" src="include/js/jquery.innerfade.js"></script>
+<script type="text/javascript" src="include/js/nyro.js"></script>
+<script type="text/javascript" src="include/js/jquery.cycle.js"></script>
+<script type="text/javascript" src="include/js/padus.js"></script>
+
+<link rel="stylesheet" type="text/css" href="stili.css" media="all"/>
+<link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+
+
+<script type="text/javascript">
+	$.easing.backout = function(x, t, b, c, d){return c*((t=t/d-1)*t*t + 1) + b;};
+	$(function(){
+		$('#slide-testata').cycle({fx:'fade',speed:'1000',timeout:8000,prev:'#prev',next:'#next',before:onBefore,after:onAfter});
+  });
+  function onBefore(){$('a.title').hide().css({bottom:-50});}
+  function onAfter(){$('a.title').show().stop().animate({bottom:"15px"},500,"backout");}
+
+
+$(document).ready(
+	function()
+	{
+
+	$("#ultime").innerfade({
+		animationtype: 'slide',
+		speed: 600,
+		timeout: 5000,
+		type: 'sequence',
+		containerheight: '30px'
+	});
+
+	$("a.zoomimg").nyroModal();
+	$("a.video").nyroModal();
+
+	}
+);
+</script>
+
+
+</head>
+<body>
+<div id="contenitore">
+  <div id="principale">
+    
+    <!-- Alto -->
+    <div id="alto">
+      <div id="logo"><img src="img/logo.jpg" alt="logo" width="347" height="151" /></div>
+      <div id="menu">
+        <div id="menu-uno">
+          <ul>
+            <li ><a href="#">ITALIANO</a></li>
+			<li ><img src="img/linea.png" width="7" height="2" alt="spaziatore" ></li>
+            <li ><a href="#">ENGLISH</a></li>
+			<li ><img src="img/separatore-a.png" alt="spaziatore" width="16" height="15" /></li>
+            <li ><a href="contatti.htm">CONTATTI</a></li>
+			<li ><img src="img/separatore-a.png" alt="" width="16" height="15" /></li>
+            <li ><a href="http://www.facebook.com/Padussolarchallenge"><img src="img/facebook.png" alt="" width="77" height="17" /></a><a href="#"></a></li>
+          </ul>
+          <div class="clear"></div>
+        </div>
+        <div id="ombra-menu-tit">
+          <div id="menu-tit">
+            <ul>
+              <li ><a href="sfida.htm">LA SFIDA</a></li>
+			  <li ><img src="img/separatore.png" alt="" width="2" height="27" /></li>
+              <li ><a href="percorso.htm">IL PERCORSO</a></li>
+			  <li ><img src="img/separatore.png" alt="" width="2" height="27" /></li>
+              <li ><a href="fotogallery.htm">GALLERY</a></li>
+			  <li ><img src="img/separatore.png" alt="" width="2" height="27" /></li>
+              <li ><a href="partner.htm">PARTNER</a></li>
+			  <li ><img src="img/separatore.png" alt="" width="2" height="27" /></li>
+              <li ><a href="info.htm">INFO</a></li>
+			  <li ><img src="img/separatore.png" alt="" width="2" height="27" /></li>
+				<!--<li ><a href="news.htm">NEWS</a></li>-->
+              
+            </ul>
+           <div class="clear"></div>
+		  </div>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <div class="clear"></div>
+    <!-- Fine Alto -->
+    </div>
+    
+	<!-- Centro -->	
+	<div id="centro">
+	<div class="ombra-sx"><img src="img/ombra-sx.png" alt="" width="21" height="299" /></div>
+	<!-- 3 Fotografie -->	
+	<div id="gallery">
+		<div class="slideshow">
+			<div id="slide-testata">
+				<div class="slide-testata-inner"> <img src="img/Foto1.jpg" width="960" height="290" alt="immagine"/> </div>
+				<div class="slide-testata-inner"> <img src="img/Foto2.jpg" width="960" height="290" alt="immagine"/> </div>
+				<div class="slide-testata-inner"> <img src="img/Foto3.jpg" width="960" height="290" alt="immagine"/> </div>
+			</div>
+		</div>
+		<div id="titolo"><img src="img/slogan.png" alt="" width="400" height="48" /></div>
+	<!-- Fine 3 Fotografie -->
+	</div>
+	<div class="ombra-dx"><img src="img/ombra-dx.png" alt="" width="21" height="299" /></div>
+	<!-- Fine Centro -->
+	<div class="clear"></div>
+	</div>
+	
+	
+	<!-- 3 Box -->	
+	<div id="box">
+		<ul>
+			<li><h3>PARTNER</h3>
+				<div class="inbox">
+					<div class="bianco-uno">
+						<ul>
+							<li><a href="http://www.asvea.e-cremona.it" target="_blank"><img src="img/partner-1.jpg" alt="" width="213" height="86" /></a></li>
+							<li><a href="http://www.ecopolis-italia.com" target="_blank"><img src="img/partner-2.jpg" alt="" width="213" height="86" /></a></li>
+							<li><a href="partner.htm" class="tx">vedi tutti i partner</a></li>
+						</ul>
+						
+					</div>
+				</div>
+			</li>
+			<li><h3>NEWS</h3>
+				<div class="inbox">
+					<div class="bianco-due">
+						<ul>
+							<li><h6>10/01/2019</h6>
+							<h5>Un catamarano contro vento</h5>
+								<strong>Un catamarano dotato di aeromotore ad asse verticale direttamente connesso a propulsore tipo Voith Schneider; questo catamarano è in grado di procedere contro vento; il secondo modello può anche procedere col vento al traverso bloccando la rotazione.<br />
+								<div style="text-align: center"><iframe width="230" height="130" src="https://www.youtube.com/embed/3xPFss5e-Gw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+								</li>
+							
+						</ul>
+					</div>
+				</div>
+			</li>
+			<li><h3>PATROCINI</h3>
+				<div class="inbox">
+					<div class="bianco-tre">
+						<ul>
+							<li><h6>Manifestazione patrocinata da:</h6>
+							</li>
+						</ul>
+						<ul class="img">
+							<li><img src="img/patrocini-1.jpg" alt="" width="124" height="82" /></li>
+							<li><img src="img/patrocini-2.jpg" alt="" width="58" height="82" /></li>
+							<li><img src="img/patrocini-3.jpg" alt="" width="76" height="82" /></li>
+							<li><img src="img/patrocini-4.jpg" alt="" width="145" height="47" /></li>
+							<li><img src="img/logo-patroc-5.jpg" alt="" width="85" height="100" /></li>
+						</ul>
+					</div>
+				</div>
+			</li>
+		</ul>
+	<div class="clear"></div>
+	</div>
+	<!--Fine 3 Box -->
+	
+	
+	<!--Coda -->
+	<div id="coda"> ASVEA Onlus - Via 1&deg; Maggio, 27 - 26100 Cremona (CR) - P.IVA 01343470199 - C/F   93040170198 - T +39.0372.460074 - <a href="mailto:info@padussolarchallenge.it">info@padussolarchallenge.it</a></div>
+	<!--Fine coda -->	
+	
+    
+    <!--Fine principale -->
+  </div>
+  <!--Fine Contenitore-->
+</div>
+
+
+
+<!-- Inizio Codice ShinyStat -->
+<script type="text/javascript" src="http://codice.shinystat.com/cgi-bin/getcod.cgi?USER=PadusCR"></script>
+<noscript>
+<a href="http://www.shinystat.com/it" target="_top">
+<img src="http://www.shinystat.com/cgi-bin/shinystat.cgi?USER=PadusCR" alt="Statistiche gratis" border="0" /></a>
+</noscript>
+<!-- Fine Codice ShinyStat -->
+
+
+
+</body>
+</html>
