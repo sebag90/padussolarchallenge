@@ -86,7 +86,7 @@ div#box li div.inbox .bianco-due ul li{ margin:8px 0 8px 0; padding:0; color:#80
 div#box li div.inbox .bianco-due ul li a{ color:#808481; text-decoration:none}
 div#box li div.inbox .bianco-due ul li a:hover{ color:#808481; text-decoration:underline}
 div#box li div.inbox .bianco-due img{ border:0;}
-div#box li div.inbox .bianco-due ul .tx{color:#f29100; text-align:center;}
+div#box li div.inbox .bianco-due ul .tx{color:#f29100; text-align:center; text-decoration:underline}
 div#box li div.inbox .bianco-due ul .tx a{color:#f29100; text-align:center; text-decoration:none;}
 div#box li div.inbox .bianco-due ul .tx a:hover{color:#f29100; text-align:center; text-decoration:underline;}
 
