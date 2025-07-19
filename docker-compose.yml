@@ -1,6 +1,7 @@
 services:
     padussolarchallenge:
         image: docker.io/library/nginx:latest
+        restart: unless-stopped
         networks:
             - website
         volumes:
