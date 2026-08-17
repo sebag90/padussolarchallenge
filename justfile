@@ -1,2 +1,2 @@
 serve:
-    podman run --rm -p 8000:80 -v ./website:/usr/share/caddy:ro,z docker.io/library/caddy:alpine
+    podman run --rm -p 8000:80 -v ./website:/public:ro,z ghcr.io/static-web-server/static-web-server:2
