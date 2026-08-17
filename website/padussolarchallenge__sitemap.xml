@@ -36,7 +36,7 @@
 
 <url>
 
-  <loc>http://www.padussolarchallenge.it/contatti.htm</loc>
+  <loc>http://www.padussolarchallenge.it/contatti.html</loc>
 
   <lastmod>2012-04-18</lastmod>
 
@@ -52,7 +52,7 @@
 
 <url>
 
-  <loc>http://www.padussolarchallenge.it/sfida.htm</loc>
+  <loc>http://www.padussolarchallenge.it/sfida.html</loc>
 
   <lastmod>2012-04-18</lastmod>
 
@@ -68,7 +68,7 @@
 
 <url>
 
-  <loc>http://www.padussolarchallenge.it/percorso.htm</loc>
+  <loc>http://www.padussolarchallenge.it/percorso.html</loc>
 
   <lastmod>2012-04-18</lastmod>
 
@@ -84,7 +84,7 @@
 
 <url>
 
-  <loc>http://www.padussolarchallenge.it/fotogallery.htm</loc>
+  <loc>http://www.padussolarchallenge.it/fotogallery.html</loc>
 
   <lastmod>2012-04-18</lastmod>
 
@@ -100,7 +100,7 @@
 
 <url>
 
-  <loc>http://www.padussolarchallenge.it/partner.htm</loc>
+  <loc>http://www.padussolarchallenge.it/partner.html</loc>
 
   <lastmod>2012-04-18</lastmod>
 
@@ -116,7 +116,7 @@
 
 <url>
 
-  <loc>http://www.padussolarchallenge.it/info.htm</loc>
+  <loc>http://www.padussolarchallenge.it/info.html</loc>
 
   <lastmod>2012-04-18</lastmod>
 
@@ -132,7 +132,7 @@
 
 <url>
 
-  <loc>http://www.padussolarchallenge.it/news.htm</loc>
+  <loc>http://www.padussolarchallenge.it/news.html</loc>
 
   <lastmod>2012-04-18</lastmod>
 
@@ -142,21 +142,6 @@
 
 </url>
 
-
-
-
-
-<url>
-
-  <loc>http://www.padussolarchallenge.it/default.htm</loc>
-
-  <lastmod>2012-04-18</lastmod>
-
-  <changefreq>daily</changefreq>
-
-  <priority>0.5</priority>
-
-</url>
 
 
 
